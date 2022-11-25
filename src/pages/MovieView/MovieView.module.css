@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+}
+.movieContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  padding: 40px;
+  width: 920px;
+  height: calc(100vh - 250px);
+  overflow-y: auto;
+}
+.filterWrapper {
+  width: 200px;
+  box-shadow: -6px 0px 10px -2px #000000;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  padding: 40px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,23 @@
+{
+  "API_BASE_URL": "https://api.themoviedb.org/3",
+  "API_KEY": "3a94078fb34b772a31d9a1348035bed7",
+  "IMAGE_BASE_URL": "https://image.tmdb.org/t/p/w200",
+  "navLinks": [
+    {
+      "path": "popular",
+      "text": "POPULAR"
+    },
+    {
+      "path": "trend",
+      "text": "TREND"
+    },
+    {
+      "path": "newest",
+      "text": "NEWEST"
+    },
+    {
+      "path": "top-rated",
+      "text": "TOP RATED"
+    }
+  ]
+}
